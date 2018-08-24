@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+	background: #434;
+}
+.main_wrapper{
+	width: 1000px;	
+	height: auto;
+	margin:auto;
+}
+.header_wrapper{
+	width: 1000px;
+	height: 100px;
+	background: #FFF;
+}
+#navbar{
+	width: 1000px;
+	height: 50px;
+	margin-top: 0px;
+	background:#000;
+	color:#C0C0C0;
+}
+.content_wrapper{
+	width: 1000px;
+	height: 400px;
+	background: #F96;
+}
+#right_content{
+	width: 820px;
+	height: 800px;
+	background: #FCC;
+	float:right;
+}
+#left_sidebar{
+	width: 180px;
+	height: 00px;
+	background: #333;
+	float: left;
+}
+.footer{
+	width: 1000px;
+	height: 100px;
+	background: #999;
+	color: #FFF;
+	clear: both;
+}
+#menu{
+	padding: 0;
+	line-height: 36px;
+	margin-top: 5px;
+	float: left;
+}
+#menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 1px;
+
+}
+#menu a{
+	color: #FFF;
+	margin: 1px;
+	font-size: 16px;
+	
+}
+#menu a:hover{
+	text-decoration: underline;
+	color: #F6A845;
+
+}
+#cats{
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+}
+#cats li{
+	list-style: none;
+margin: 8px;
+}
+#cats a{
+	color: #FFF;
+	font-size: 20px;
+	text-decoration:none;
+	margin: 5px;
+}
+#cats a:hover{
+	text-decoration:underline;
+	color: #F6A845
+}
+
+#headline{
+	background: #000;
+	color: #FFF;
+	float: right;
+	height: 35px;
+	width: 800px;
+	padding: 10px;
+
+}
+#single_product{
+	float: left;
+	padding: 10px;
+}
+
+#cts{
+	color: #FFF;
+	text-align: left;
+	padding: 10px;
+}
+#cts li{
+	list-style: none;
+margin: 8px;
+}
+#cts a{
+	color: #F6A845;
+	font-size: 20px;
+	text-decoration:none;
+	margin: 5px;
+}
+#cts a:hover{
+	text-decoration:underline;
+	color: #FFF;
+}
+

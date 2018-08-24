@@ -1,0 +1,76 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body
+{
+	background: #666;
+}
+.wrapper{
+	width: 924px;
+	height: auto;
+	margin: auto;
+
+	background: #FFF;
+
+}
+.header {
+	width: 924px;
+	height: 128px;
+	border-bottom: 6px groove #F90;
+	background: url(bg-head.jpg)
+
+}
+.hover-item:hover
+{
+text-decoration: underline;
+font-weight: bolder;
+
+}
+.hover-item:visited{
+	color: #FFF;
+
+}
+.right{
+	width: 715px;
+	height: 471px;
+background: url(bag3.jpg);
+float: right;
+}
+.left{
+	width: 200px;
+	height: 471px;
+	border-left: 6px groove #F90;
+	float: right;
+	background: #06C;
+
+}
+.left a:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
